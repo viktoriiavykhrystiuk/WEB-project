@@ -1,0 +1,150 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px 24px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0, 80, 160, 0.15);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #0057b8;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.time {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.cityName {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 2px;
+}
+
+.arrow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.duration {
+  font-size: 0.78rem;
+  color: #888;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #0057b8;
+  flex-shrink: 0;
+}
+
+.dash {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, #0057b8, #ffd700);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 14px;
+}
+
+.wagons {
+  display: flex;
+  gap: 6px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.wagonBadge {
+  background: #e8f0fe;
+  color: #0057b8;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.priceBlock {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.priceLabel {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.btn {
+  background: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: #003d8f;
+}
