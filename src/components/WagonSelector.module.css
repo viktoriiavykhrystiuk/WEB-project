@@ -1,0 +1,64 @@
+.wrapper {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 14px 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  min-width: 110px;
+}
+
+.item:hover {
+  border-color: #0057b8;
+  background: #e8f0fe;
+}
+
+.active {
+  border-color: #0057b8;
+  background: #0057b8;
+  color: #fff;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.type {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.price {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.seats {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
